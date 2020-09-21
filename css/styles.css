@@ -1,9 +1,18 @@
+body {
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1 {
+  margin: 0;
+}
+
 .image {
   width: 440px;
   height: 320px;
-  margin-bottom: 15px;
-
-  border: 5px solid yellowgreen;
 }
 
 .list {
@@ -14,12 +23,18 @@
 
 #gallery {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
 
   margin: 0;
   padding: 0;
+}
 
-  text-align: center;
+#counter,
+#validation-input {
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0;
 }
 
 #validation-input {
@@ -32,4 +47,8 @@
 
 #validation-input.invalid {
   border-color: #f44336;
+}
+
+.task-7 {
+  margin-bottom: 100px;
 }
