@@ -1,0 +1,23 @@
+.image {
+  width: 440px;
+  height: 320px;
+  margin-bottom: 15px;
+
+  border: 5px solid yellowgreen;
+}
+
+.list {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+#gallery {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0;
+  padding: 0;
+
+  text-align: center;
+}
